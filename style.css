@@ -53,6 +53,7 @@ footer {
 
   max-width: 960px;
   margin: 0 auto;
+
 }
 
 header {
@@ -75,7 +76,7 @@ header {
   border-radius: 8px;
   color: #ffffff;
   text-decoration: none;
-  /* [SYARAT 6] transition: perubahan warna berlangsung halus 0.3 detik */
+  /*transition: perubahan warna berlangsung halus 0.3 detik */
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -113,7 +114,7 @@ header {
   padding: 6px;
   border: 4px solid var(--biru);
   border-radius: 14px;
-  margin: 0 auto;
+  margin: 20px auto;
   /* [TANTANGAN] animasi @keyframes: foto muncul perlahan saat halaman dibuka */
   animation: fadeIn 3s ease-out both;
 }
